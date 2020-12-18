@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Fri Dec 18 04:36:55 2020
+# Process ID: 15992
+# Current directory: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10188 Z:\FALL 2020 SCHOOL\COMPE 470L\FinalProject_ArmaanKafaipour_820398274\finalproject modular test.xpr
+# Log file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/vivado.log
+# Journal file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274\vivado.jou
+#----------------------------------------------------------start_gui
+open_project {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/finalproject modular test.xpr}
+upupdate_compile_order -fileset sources_1

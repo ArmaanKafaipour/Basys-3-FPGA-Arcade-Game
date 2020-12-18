@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Fri Dec 18 04:48:24 2020
+# Process ID: 14544
+# Current directory: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/Basys 3 Arcade Game.runs/impl_1
+# Command line: vivado.exe -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/Basys 3 Arcade Game.runs/impl_1/main.vdi
+# Journal file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/Basys 3 Arcade Game.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

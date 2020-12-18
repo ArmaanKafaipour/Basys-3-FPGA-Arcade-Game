@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun Nov 29 01:39:51 2020
+# Process ID: 17848
+# Current directory: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18948 Z:\FALL 2020 SCHOOL\COMPE 470L\FinalProject_ArmaanKafaipour_820398274\finalproject modular test.xpr
+# Log file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/vivado.log
+# Journal file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/finalproject modular test.xpr}
+update_compile_order -fileset sources_1
+archive_project {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProjectComplete_ArmaanKafaipour_820398274.xpr.zip} -temp_dir {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/.Xil/Vivado-17848-DESKTOP-Q361VVH} -force -include_local_ip_cache
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/finalproject modular test.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]

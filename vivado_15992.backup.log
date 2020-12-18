@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Fri Dec 18 04:36:55 2020
+# Process ID: 15992
+# Current directory: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10188 Z:\FALL 2020 SCHOOL\COMPE 470L\FinalProject_ArmaanKafaipour_820398274\finalproject modular test.xpr
+# Log file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/vivado.log
+# Journal file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274\vivado.jou
+#----------------------------------------------------------start_gui
+open_project {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/finalproject modular test.xpr}
+INFO: [Project 1-313] Project file moved from 'Z:/FALL 2020 SCHOOL/COMPE 470L/finalproject modular test' since last save.
+Scanning sources...
+FiFinished scanning sourceINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'Z:/Xilinx/Vivado/2020.1/data/ip'.
+opopen_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.559 ; gain = 0.00upupdate_compile_order -fileset sources_exexit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 18 04:45:27 2020...

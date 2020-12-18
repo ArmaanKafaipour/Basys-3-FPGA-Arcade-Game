@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun Nov 29 01:39:51 2020
+# Process ID: 17848
+# Current directory: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18948 Z:\FALL 2020 SCHOOL\COMPE 470L\FinalProject_ArmaanKafaipour_820398274\finalproject modular test.xpr
+# Log file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/vivado.log
+# Journal file: Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/finalproject modular test.xpr}
+INFO: [Project 1-313] Project file moved from 'Z:/FALL 2020 SCHOOL/COMPE 470L/finalproject modular test' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'Z:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+archive_project {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProjectComplete_ArmaanKafaipour_820398274.xpr.zip} -temp_dir {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/.Xil/Vivado-17848-DESKTOP-Q361VVH} -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/.Xil/Vivado-17848-DESKTOP-Q361VVH' for archiving project
+INFO: [Project 1-313] Project file moved from 'Z:/FALL 2020 SCHOOL/COMPE 470L/finalproject modular test' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/.Xil/Vivado-17848-DESKTOP-Q361VVH/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProjectComplete_ArmaanKafaipour_820398274.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1.1
+  **** Build date : Aug  5 2020 at 23:32:11
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 13 2020-18:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1023.812 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AFCFDEA
+set_property PROGRAM.FILE {Z:/FALL 2020 SCHOOL/COMPE 470L/FinalProject_ArmaanKafaipour_820398274/finalproject modular test.runs/impl_1/main.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 29 01:44:39 2020...
