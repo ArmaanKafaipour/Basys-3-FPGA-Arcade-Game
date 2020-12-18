@@ -1,7 +1,7 @@
 # Basys-3-FPGA-Arcade-Game
 # Author: Armaan Kafaipour
 # Developed in Xilinx Vivado
-#
+
 Requires Basys 3 FPGA to run. Once Basys 3 is connected to Vivado, program the device using the generated bitstream file - main.bit
 #
 Light will travel accross all 16 LEDs back and forth. Press the center button while LED 7 is lit to increase your score by 1.
